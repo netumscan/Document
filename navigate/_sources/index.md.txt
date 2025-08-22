@@ -31,6 +31,8 @@
     - [NT Series Scanner](page-en:NT)
 *   - [RD Series Scanner](page-zh:RD)
     - [RD Series Scanner](page-en:RD)
+*   - [RF Series Scanner](page-zh:RF)
+    - [RF Series Scanner](page-en:RF)
 *   - [RS Series Scanner](page-zh:RS)
     - [RS Series Scanner](page-en:RS)
 *   - [S Series Scanner](page-zh:S)
