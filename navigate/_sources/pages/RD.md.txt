@@ -14,24 +14,24 @@ hide-toc: true
 ```
 
 
-## [NT-1202W](https://docs.gzxlscan.cn/manual/NT-1202W/zh)
+## [NT-1202W/RD1202W](https://docs.gzxlscan.cn/manual/NT-1202W/zh)
 
 
 ```{figure} ../media/series/NT-1202W.jpg
 :align: center
 :target: https://docs.gzxlscan.cn/manual/NT-1202W/zh
 
-[NT-1202W](https://docs.gzxlscan.cn/manual/NT-1202W/zh)
+[NT-1202W/RD1202W](https://docs.gzxlscan.cn/manual/NT-1202W/zh)
 ```
 
-## [NT-1203L](https://docs.gzxlscan.cn/manual/NT-1203L/zh)
+## [NT-1203L/RD1203L](https://docs.gzxlscan.cn/manual/NT-1203L/zh)
 
 
 ```{figure} ../media/series/NT-1203L.jpg
 :align: center
 :target: https://docs.gzxlscan.cn/manual/NT-1203L/zh
 
-[NT-1203L](https://docs.gzxlscan.cn/manual/NT-1203L/zh)
+[NT-1203L/RD1203L](https://docs.gzxlscan.cn/manual/NT-1203L/zh)
 ```
 
 ## [I8](https://docs.gzxlscan.cn/manual/I8/zh)
@@ -52,21 +52,31 @@ hide-toc: true
 [I5](https://docs.gzxlscan.cn/manual/I5/zh)
 ```
 
-## [NT-1988](https://docs.gzxlscan.cn/manual/NT-1988/zh)
+## [NT-1988/RD1900](https://docs.gzxlscan.cn/manual/NT-1988/zh)
 
 ```{figure} ../media/series/NT-1988.jpg
 :align: center
 :target: https://docs.gzxlscan.cn/manual/NT-1988/zh
 
-[NT-1988](https://docs.gzxlscan.cn/manual/NT-1988/zh)
+[NT-1988/RD1900](https://docs.gzxlscan.cn/manual/NT-1988/zh)
 ```
-## [NT-1288](https://docs.gzxlscan.cn/manual/NT-1288/zh)
+
+## [NT-1950/RD1950](https://docs.gzxlscan.cn/manual/NT-1950/zh)
+
+```{figure} ../media/series/RD1950.jpg
+:align: center
+:target: https://docs.gzxlscan.cn/manual/NT-1950/zh
+
+[NT-1950/RD1950](https://docs.gzxlscan.cn/manual/NT-1950/zh)
+```
+
+## [NT-1288/RD1200](https://docs.gzxlscan.cn/manual/NT-1288/zh)
 
 ```{figure} ../media/series/NT-1288.jpg
 :align: center
 :target: https://docs.gzxlscan.cn/manual/NT-1288/zh
 
-[NT-1288](https://docs.gzxlscan.cn/manual/NT-1288/zh)
+[NT-1288/RD1200](https://docs.gzxlscan.cn/manual/NT-1288/zh)
 ```
 ## [NT-12895](https://docs.gzxlscan.cn/manual/NT-12895/zh)
 

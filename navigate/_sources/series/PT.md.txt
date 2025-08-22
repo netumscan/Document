@@ -24,6 +24,16 @@ hide-toc: true
 [A6](https://doc5.scandocs.net/A6/en)
 ```
 
+## [DP9280](https://platform.scandocs.net/DP9280/en)
+
+
+```{figure} ../media/series/DP9280.jpg
+:align: center
+:target: https://platform.scandocs.net/DP9280/en
+
+[DP9280](https://platform.scandocs.net/DP9280/en)
+```
+
 ## [NT-2055M](https://platform.scandocs.net/NT-2055M/en)
 
 

@@ -24,6 +24,16 @@ hide-toc: true
 [A6](https://docs.gzxlscan.cn/manual/A6/zh)
 ```
 
+## [DP9280](https://docs.gzxlscan.cn/manual/DP9280/zh)
+
+
+```{figure} ../media/series/DP9280.jpg
+:align: center
+:target: https://docs.gzxlscan.cn/manual/DP9280/zh
+
+[DP9280](https://docs.gzxlscan.cn/manual/DP9280/zh)
+```
+
 ## [NT-2055M](https://docs.gzxlscan.cn/manual/NT-2055M/zh)
 
 
