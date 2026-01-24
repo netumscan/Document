@@ -48,7 +48,11 @@
     <div id="qrcode"></div>
     <script>
         function generateCodes(text) {
-            var cmd="%IOTCLIID#"+text+"#";
+            var cmd="%IOTCLIID#";
+			if(text!="")
+			{
+				cmd=cmd++text+"#";
+			}
 			// 清空旧的二维码和条形码
             $("#qrcode").empty();
 
@@ -62,7 +66,7 @@
 
         $(document).ready(function() {
             // 默认生成
-            var defaultText = "NT250001";
+            var defaultText = "";
             $("#inputText").val(defaultText);
             generateCodes(defaultText);
 
