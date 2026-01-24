@@ -15,14 +15,11 @@
             margin: 0px; /* 设置边距 */
             flex-direction: column; /* 垂直排列 */
         }
-        .input-container {
-            margin-bottom: 20px; /* 与二维码区域的间距 */
-            width: fit-content; /* 适配内容宽度 */
-        }
         .input-group {
             display: flex;
-            align-items: stretch; /* 让子元素高度拉伸一致 */
-            gap: 10px; /* 输入框和按钮之间的间距 */
+            flex-direction: column; /* 垂直排列标签和输入框 */
+            align-items: flex-start; /* 左对齐 */
+            margin-bottom: 12px; /* 输入框与按钮间距 */
         }
         #qrcode {
             margin: 20px;
@@ -34,73 +31,70 @@
         input {
             padding: 10px;
             width: 300px;
-            border: 1px solid #ccc; /* 补全输入框边框，视觉更统一 */
-            border-radius: 4px; /* 和按钮圆角一致 */
-            box-sizing: border-box; /* 内边距计入宽度/高度，保证高度计算准确 */
+            margin-top: 5px; /* 标签与输入框之间的间距 */
         }
         label {
             max-width: 300px; /* 设置标签最大宽度 */
             word-wrap: break-word; /* 自动换行 */
             margin-bottom: 5px; /* 标签与输入框之间的间距 */
-            display: block; /* 让标签独占一行 */
-            text-align: left; /* 左对齐 */
-            font-size: 14px;
-            color: #333;
         }
         button {
-            padding: 0 20px; /* 去掉上下内边距，靠align-items: stretch撑高 */
+            padding: 10px;
+            width: 322px; /* 与输入框视觉对齐（300 + padding）可按需调整 */
+            margin-top: 10px;
             cursor: pointer;
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            border-radius: 4px;
-            box-sizing: border-box; /* 保证盒模型统一 */
-            font-size: 14px;
-        }
-        button:hover {
-            background-color: #45a049;
         }
     </style>
 </head>
 <body>
-    <div class="input-container">
+    <div class="input-group">
         <label for="inputText">Client ID</label>
-        <div class="input-group">
-            <input type="text" id="inputText" placeholder="Client ID">
-            <button id="generateBtn">生成</button>
-        </div>
+        <input type="text" id="inputText" placeholder="Client ID">
+        <button type="button" id="btnGenerate">Generate</button>
     </div>
+
     <div id="qrcode"></div>
+
     <script>
         function generateCodes(text) {
             // 清空旧的二维码
             $("#qrcode").empty();
             if(text)
             {
-                var cmd="%IOTCLIID#"+text+"#";
-                // 生成二维码
-                $("#qrcode").qrcode({
-                    text: cmd,
-                    width: 256,
-                    height: 256
-                });
+				var cmd = "%IOTCLIID#" + text + "#";
+				// 生成二维码
+				$("#qrcode").qrcode({
+					text: cmd,
+					width: 256,
+					height: 256
+				});
             }
         }
 
         $(document).ready(function() {
-            // 默认输入框为空
+            // 默认生成
             var defaultText = "";
             $("#inputText").val(defaultText);
+            generateCodes(defaultText);
 
-            // 点击按钮生成二维码
-            $("#generateBtn").click(function() {
+
+            // 点击按钮生成
+            $("#btnGenerate").on("click", function() {
                 var inputText = $("#inputText").val();
                 generateCodes(inputText);
             });
+            
+            // 监听输入框的变化：仅清空二维码，不生成
+            $("#inputText").on("input", function() {
+                $("#qrcode").empty();
+            });
 
-            // 监听输入框内容变化，清除二维码
-            $("#inputText").on('input change', function() {
-                $("#qrcode").empty(); // 清空二维码容器
+            // 可选：按回车也生成
+            $("#inputText").on("keydown", function(e) {
+                if (e.key === "Enter") {
+                    e.preventDefault();
+                    $("#btnGenerate").click();
+                }
             });
         });
     </script>
