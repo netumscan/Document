@@ -49,9 +49,9 @@
     <script>
         function generateCodes(text) {
             var cmd="%IOTCLIID#";
-			if(text!="")
+			if(text)
 			{
-				cmd=cmd++text+"#";
+				cmd=cmd+text+"#";
 			}
 			// 清空旧的二维码和条形码
             $("#qrcode").empty();
