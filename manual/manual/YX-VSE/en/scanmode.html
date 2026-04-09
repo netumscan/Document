@@ -1,0 +1,1085 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="./" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-K4FLCEP0X8"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-K4FLCEP0X8');
+    </script>
+    
+    <title>Scan Mode &#8212; YX-VSE Scanner User Manual</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+
+  
+  <link href="_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=8f2a1f02" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=eba8b062" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="_static/custom.css?v=8bdf28ea" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+    <script src="_static/documentation_options.js?v=a681ed88"></script>
+    <script src="_static/doctools.js?v=9bcbadda"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="_static/copybutton.js?v=f281be69"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'scanmode';</script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Hardware" href="hardware.html" />
+    <link rel="prev" title="System Settings" href="system.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search..."
+         aria-label="Search..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="index.html">
+  
+  
+  
+  
+  
+  
+    <p class="title logo__title">YX-VSE Scanner User Manual</p>
+  
+</a></div>
+        <div class="sidebar-primary-item"><ul class="navbar-icon-links"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="../en" title="English" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><img src="./media/us.png" class="icon-link-image" alt="English"/></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="../de" title="German" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><img src="./media/de.png" class="icon-link-image" alt="German"/></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="../fr" title="French" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><img src="./media/fr.png" class="icon-link-image" alt="French"/></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="../it" title="Italian" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><img src="./media/it.png" class="icon-link-image" alt="Italian"/></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="../es" title="Spanish" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><img src="./media/es.png" class="icon-link-image" alt="Spanish"/></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="../ja" title="Japanese" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><img src="./media/ja.png" class="icon-link-image" alt="Japanese"/></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="../ar" title="Arabic" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><img src="./media/ar.png" class="icon-link-image" alt="Arabic"/></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="../pt" title="Portuguese" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><img src="./media/pt.png" class="icon-link-image" alt="Portuguese"/></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="../ru" title="Russian" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><img src="./media/ru.png" class="icon-link-image" alt="Russian"/></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="../el" title="Greek" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><img src="./media/gr.png" class="icon-link-image" alt="Greek"/></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://crowdin.com/project/scanner-docs" title="Crowdin" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><img src="https://badges.crowdin.net/scanner-docs/localized.svg" class="icon-link-image" alt="Crowdin"/></a>
+        </li>
+</ul></div>
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        <ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="system.html">System Settings</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Scan Mode</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hardware.html">Hardware</a></li>
+<li class="toctree-l1"><a class="reference internal" href="character.html">Terminator</a></li>
+<li class="toctree-l1"><a class="reference internal" href="keyboard.html">Keyboard Settings</a></li>
+<li class="toctree-l1"><a class="reference internal" href="barcode.html">Symbologies</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/scanmode.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Scan Mode</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#key-trigger-mode">Key Trigger Mode</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#continuous-mode">Continuous Mode</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#reading-interval-time">Reading Interval Time</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#auto-sensing-mode">Auto Sensing Mode</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#trigger-sensitivity">Trigger Sensitivity</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#sensing-interval-time">Sensing Interval Time</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#sensing-timeout-time">Sensing Timeout Time</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#repeat-time-filter-settings">Repeat Time Filter Settings</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#enable-disable">Enable/Disable</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#filtering-time-settings">Filtering Time Settings</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#duplicate-count-filtering-settings">Duplicate Count Filtering Settings</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Enable/Disable</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#filter-count-settings">Filter Count Settings</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#duplicate-barcode-filtering-settings">Duplicate Barcode Filtering Settings</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#merging-duplicate-barcodes">Merging Duplicate Barcodes</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#barcode-length-limit-instruction">Barcode Length Limit Instruction</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#block-start-setting">Block Start Setting</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#specify-start-settings">Specify Start Settings</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#specify-ending-settings">Specify Ending Settings</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#must-include-settings">Must Include Settings</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#cannot-contain-settings">Cannot Contain Settings</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#character-requirement-settings">Character Requirement Settings</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">Enable/Disable</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">Character Requirement Settings</a></li>
+</ul>
+</li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section id="scan-mode">
+<h1>Scan Mode<a class="headerlink" href="#scan-mode" title="Link to this heading">#</a></h1>
+<section id="key-trigger-mode">
+<h2>Key Trigger Mode<a class="headerlink" href="#key-trigger-mode" title="Link to this heading">#</a></h2>
+<p>Press the button to trigger scanning, and release the button to end scanning. Scanning ends when the scan is successful or the reading time exceeds the single reading time.</p>
+<figure class="align-center" id="id4">
+<a class="reference internal image-reference" href="../../media/40BUNTR.png"><img alt="../../media/40BUNTR.png" src="../../media/40BUNTR.png" style="width: 300px;" />
+</a>
+<figcaption>
+<p><span class="caption-text"><code class="docutils literal notranslate"><span class="pre">*</span></code> Key Trigger Mode</span><a class="headerlink" href="#id4" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+</section>
+<section id="continuous-mode">
+<h2>Continuous Mode<a class="headerlink" href="#continuous-mode" title="Link to this heading">#</a></h2>
+<p>The scanner works continuously. If the scan is successful or the scan time exceeds the single working time, the current scan ends. If the time exceeds the specified time, the next scan is automatically triggered.</p>
+<figure class="align-center" id="id5">
+<a class="reference internal image-reference" href="../../media/40CONTR.png"><img alt="../../media/40CONTR.png" src="../../media/40CONTR.png" style="width: 300px;" />
+</a>
+<figcaption>
+<p><span class="caption-text">Continuous Mode</span><a class="headerlink" href="#id5" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<section id="reading-interval-time">
+<h3>Reading Interval Time<a class="headerlink" href="#reading-interval-time" title="Link to this heading">#</a></h3>
+<figure class="align-center" id="id6">
+<a class="reference internal image-reference" href="../../media/40CORN0.png"><img alt="../../media/40CORN0.png" src="../../media/40CORN0.png" style="width: 300px;" />
+</a>
+<figcaption>
+<p><span class="caption-text"><code class="docutils literal notranslate"><span class="pre">*</span></code> 0ms</span><a class="headerlink" href="#id6" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="id7">
+<a class="reference internal image-reference" href="../../media/40CORN200.png"><img alt="../../media/40CORN200.png" src="../../media/40CORN200.png" style="width: 300px;" />
+</a>
+<figcaption>
+<p><span class="caption-text">200ms</span><a class="headerlink" href="#id7" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="id8">
+<a class="reference internal image-reference" href="../../media/40CORN500.png"><img alt="../../media/40CORN500.png" src="../../media/40CORN500.png" style="width: 300px;" />
+</a>
+<figcaption>
+<p><span class="caption-text">500ms</span><a class="headerlink" href="#id8" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="id9">
+<a class="reference internal image-reference" href="../../media/40CORN1000.png"><img alt="../../media/40CORN1000.png" src="../../media/40CORN1000.png" style="width: 300px;" />
+</a>
+<figcaption>
+<p><span class="caption-text">1000ms</span><a class="headerlink" href="#id9" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="id10">
+<a class="reference internal image-reference" href="../../media/40CORN2000.png"><img alt="../../media/40CORN2000.png" src="../../media/40CORN2000.png" style="width: 300px;" />
+</a>
+<figcaption>
+<p><span class="caption-text">2000ms</span><a class="headerlink" href="#id10" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+</section>
+</section>
+<section id="auto-sensing-mode">
+<h2>Auto Sensing Mode<a class="headerlink" href="#auto-sensing-mode" title="Link to this heading">#</a></h2>
+<p>In the auto sensing mode, the scanner will detect the brightness of the surrounding environment. When the brightness changes, the scan is triggered. The scan ends when the scan is successful or the scan time exceeds the single working time. Regardless of whether the last scan was successful or failed, the brightness of the surrounding environment will be detected again.</p>
+<figure class="align-center" id="id11">
+<a class="reference internal image-reference" href="../../media/40MOTTR.png"><img alt="../../media/40MOTTR.png" src="../../media/40MOTTR.png" style="width: 300px;" />
+</a>
+<figcaption>
+<p><span class="caption-text">Auto Sensing Mode</span><a class="headerlink" href="#id11" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<section id="trigger-sensitivity">
+<h3>Trigger Sensitivity<a class="headerlink" href="#trigger-sensitivity" title="Link to this heading">#</a></h3>
+<figure class="align-center" id="id12">
+<a class="reference internal image-reference" href="../../media/40SELOW.png"><img alt="../../media/40SELOW.png" src="../../media/40SELOW.png" style="width: 300px;" />
+</a>
+<figcaption>
+<p><span class="caption-text">Low</span><a class="headerlink" href="#id12" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="id13">
+<a class="reference internal image-reference" href="../../media/40SEMID.png"><img alt="../../media/40SEMID.png" src="../../media/40SEMID.png" style="width: 300px;" />
+</a>
+<figcaption>
+<p><span class="caption-text"><code class="docutils literal notranslate"><span class="pre">*</span></code> Medium</span><a class="headerlink" href="#id13" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="id14">
+<a class="reference internal image-reference" href="../../media/40SEHIG.png"><img alt="../../media/40SEHIG.png" src="../../media/40SEHIG.png" style="width: 300px;" />
+</a>
+<figcaption>
+<p><span class="caption-text">High</span><a class="headerlink" href="#id14" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+</section>
+<section id="sensing-interval-time">
+<h3>Sensing Interval Time<a class="headerlink" href="#sensing-interval-time" title="Link to this heading">#</a></h3>
+<figure class="align-center" id="id15">
+<a class="reference internal image-reference" href="../../media/40MOTIM1000.png"><img alt="../../media/40MOTIM1000.png" src="../../media/40MOTIM1000.png" style="width: 300px;" />
+</a>
+<figcaption>
+<p><span class="caption-text"><code class="docutils literal notranslate"><span class="pre">*</span></code> 1000ms</span><a class="headerlink" href="#id15" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="id16">
+<a class="reference internal image-reference" href="../../media/40MOTIM2000.png"><img alt="../../media/40MOTIM2000.png" src="../../media/40MOTIM2000.png" style="width: 300px;" />
+</a>
+<figcaption>
+<p><span class="caption-text">2000ms</span><a class="headerlink" href="#id16" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="id17">
+<a class="reference internal image-reference" href="../../media/40MOTIM5000.png"><img alt="../../media/40MOTIM5000.png" src="../../media/40MOTIM5000.png" style="width: 300px;" />
+</a>
+<figcaption>
+<p><span class="caption-text">5000ms</span><a class="headerlink" href="#id17" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+</section>
+<section id="sensing-timeout-time">
+<h3>Sensing Timeout Time<a class="headerlink" href="#sensing-timeout-time" title="Link to this heading">#</a></h3>
+<figure class="align-center" id="id18">
+<a class="reference internal image-reference" href="../../media/40MOTOT1000.png"><img alt="../../media/40MOTOT1000.png" src="../../media/40MOTOT1000.png" style="width: 300px;" />
+</a>
+<figcaption>
+<p><span class="caption-text">1000ms</span><a class="headerlink" href="#id18" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="id19">
+<a class="reference internal image-reference" href="../../media/40MOTOT2000.png"><img alt="../../media/40MOTOT2000.png" src="../../media/40MOTOT2000.png" style="width: 300px;" />
+</a>
+<figcaption>
+<p><span class="caption-text"><code class="docutils literal notranslate"><span class="pre">*</span></code> 2000ms</span><a class="headerlink" href="#id19" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="id20">
+<a class="reference internal image-reference" href="../../media/40MOTOT3000.png"><img alt="../../media/40MOTOT3000.png" src="../../media/40MOTOT3000.png" style="width: 300px;" />
+</a>
+<figcaption>
+<p><span class="caption-text">3000ms</span><a class="headerlink" href="#id20" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="id21">
+<a class="reference internal image-reference" href="../../media/40MOTOT5000.png"><img alt="../../media/40MOTOT5000.png" src="../../media/40MOTOT5000.png" style="width: 300px;" />
+</a>
+<figcaption>
+<p><span class="caption-text">5000ms</span><a class="headerlink" href="#id21" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+</section>
+</section>
+<section id="repeat-time-filter-settings">
+<h2>Repeat Time Filter Settings<a class="headerlink" href="#repeat-time-filter-settings" title="Link to this heading">#</a></h2>
+<section id="enable-disable">
+<h3>Enable/Disable<a class="headerlink" href="#enable-disable" title="Link to this heading">#</a></h3>
+<figure class="align-center" id="id22">
+<a class="reference internal image-reference" href="../../media/40OPRPTM.png"><img alt="../../media/40OPRPTM.png" src="../../media/40OPRPTM.png" style="width: 300px;" />
+</a>
+<figcaption>
+<p><span class="caption-text">Enable</span><a class="headerlink" href="#id22" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="id23">
+<a class="reference internal image-reference" href="../../media/40CLRPTM.png"><img alt="../../media/40CLRPTM.png" src="../../media/40CLRPTM.png" style="width: 300px;" />
+</a>
+<figcaption>
+<p><span class="caption-text"><code class="docutils literal notranslate"><span class="pre">*</span></code> Disable</span><a class="headerlink" href="#id23" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+</section>
+<section id="filtering-time-settings">
+<h3>Filtering Time Settings<a class="headerlink" href="#filtering-time-settings" title="Link to this heading">#</a></h3>
+<figure class="align-center" id="id24">
+<a class="reference internal image-reference" href="../../media/40RPTM30.png"><img alt="../../media/40RPTM30.png" src="../../media/40RPTM30.png" style="width: 300px;" />
+</a>
+<figcaption>
+<p><span class="caption-text"><code class="docutils literal notranslate"><span class="pre">*</span></code> 30</span><a class="headerlink" href="#id24" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="id25">
+<a class="reference internal image-reference" href="../../media/40RPTM300.png"><img alt="../../media/40RPTM300.png" src="../../media/40RPTM300.png" style="width: 300px;" />
+</a>
+<figcaption>
+<p><span class="caption-text">300</span><a class="headerlink" href="#id25" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="id26">
+<a class="reference internal image-reference" href="../../media/40RPTM600.png"><img alt="../../media/40RPTM600.png" src="../../media/40RPTM600.png" style="width: 300px;" />
+</a>
+<figcaption>
+<p><span class="caption-text">600</span><a class="headerlink" href="#id26" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="id27">
+<a class="reference internal image-reference" href="../../media/40RPTM1000.png"><img alt="../../media/40RPTM1000.png" src="../../media/40RPTM1000.png" style="width: 300px;" />
+</a>
+<figcaption>
+<p><span class="caption-text">1000</span><a class="headerlink" href="#id27" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="id28">
+<a class="reference internal image-reference" href="../../media/40RPTM2000.png"><img alt="../../media/40RPTM2000.png" src="../../media/40RPTM2000.png" style="width: 300px;" />
+</a>
+<figcaption>
+<p><span class="caption-text">2000</span><a class="headerlink" href="#id28" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="id29">
+<a class="reference internal image-reference" href="../../media/40RPTM5000.png"><img alt="../../media/40RPTM5000.png" src="../../media/40RPTM5000.png" style="width: 300px;" />
+</a>
+<figcaption>
+<p><span class="caption-text">5000</span><a class="headerlink" href="#id29" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+</section>
+</section>
+<section id="duplicate-count-filtering-settings">
+<h2>Duplicate Count Filtering Settings<a class="headerlink" href="#duplicate-count-filtering-settings" title="Link to this heading">#</a></h2>
+<section id="id1">
+<h3>Enable/Disable<a class="headerlink" href="#id1" title="Link to this heading">#</a></h3>
+<figure class="align-center" id="id30">
+<a class="reference internal image-reference" href="../../media/40OPRPNUM.png"><img alt="../../media/40OPRPNUM.png" src="../../media/40OPRPNUM.png" style="width: 300px;" />
+</a>
+<figcaption>
+<p><span class="caption-text">Enable</span><a class="headerlink" href="#id30" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="id31">
+<a class="reference internal image-reference" href="../../media/40CLRPNUM.png"><img alt="../../media/40CLRPNUM.png" src="../../media/40CLRPNUM.png" style="width: 300px;" />
+</a>
+<figcaption>
+<p><span class="caption-text"><code class="docutils literal notranslate"><span class="pre">*</span></code> Disable</span><a class="headerlink" href="#id31" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+</section>
+<section id="filter-count-settings">
+<h3>Filter Count Settings<a class="headerlink" href="#filter-count-settings" title="Link to this heading">#</a></h3>
+<figure class="align-center" id="id32">
+<a class="reference internal image-reference" href="../../media/40RPNUM1.png"><img alt="../../media/40RPNUM1.png" src="../../media/40RPNUM1.png" style="width: 300px;" />
+</a>
+<figcaption>
+<p><span class="caption-text">1</span><a class="headerlink" href="#id32" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="id33">
+<a class="reference internal image-reference" href="../../media/40RPNUM2.png"><img alt="../../media/40RPNUM2.png" src="../../media/40RPNUM2.png" style="width: 300px;" />
+</a>
+<figcaption>
+<p><span class="caption-text">2</span><a class="headerlink" href="#id33" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="id34">
+<a class="reference internal image-reference" href="../../media/40RPNUM3.png"><img alt="../../media/40RPNUM3.png" src="../../media/40RPNUM3.png" style="width: 300px;" />
+</a>
+<figcaption>
+<p><span class="caption-text">3</span><a class="headerlink" href="#id34" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="id35">
+<a class="reference internal image-reference" href="../../media/40RPNUM4.png"><img alt="../../media/40RPNUM4.png" src="../../media/40RPNUM4.png" style="width: 300px;" />
+</a>
+<figcaption>
+<p><span class="caption-text">4</span><a class="headerlink" href="#id35" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="id36">
+<a class="reference internal image-reference" href="../../media/40RPNUM5.png"><img alt="../../media/40RPNUM5.png" src="../../media/40RPNUM5.png" style="width: 300px;" />
+</a>
+<figcaption>
+<p><span class="caption-text">5</span><a class="headerlink" href="#id36" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="id37">
+<a class="reference internal image-reference" href="../../media/40RPNUM6.png"><img alt="../../media/40RPNUM6.png" src="../../media/40RPNUM6.png" style="width: 300px;" />
+</a>
+<figcaption>
+<p><span class="caption-text">6</span><a class="headerlink" href="#id37" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+</section>
+</section>
+<section id="duplicate-barcode-filtering-settings">
+<h2>Duplicate Barcode Filtering Settings<a class="headerlink" href="#duplicate-barcode-filtering-settings" title="Link to this heading">#</a></h2>
+<figure class="align-center" id="id38">
+<a class="reference internal image-reference" href="../../media/40OPRPCD.png"><img alt="../../media/40OPRPCD.png" src="../../media/40OPRPCD.png" style="width: 300px;" />
+</a>
+<figcaption>
+<p><span class="caption-text">Enable</span><a class="headerlink" href="#id38" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="id39">
+<a class="reference internal image-reference" href="../../media/40CLRPCD.png"><img alt="../../media/40CLRPCD.png" src="../../media/40CLRPCD.png" style="width: 300px;" />
+</a>
+<figcaption>
+<p><span class="caption-text"><code class="docutils literal notranslate"><span class="pre">*</span></code> Disable</span><a class="headerlink" href="#id39" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+</section>
+<section id="merging-duplicate-barcodes">
+<h2>Merging Duplicate Barcodes<a class="headerlink" href="#merging-duplicate-barcodes" title="Link to this heading">#</a></h2>
+<figure class="align-center" id="id40">
+<a class="reference internal image-reference" href="../../media/40OPDBMO.png"><img alt="../../media/40OPDBMO.png" src="../../media/40OPDBMO.png" style="width: 300px;" />
+</a>
+<figcaption>
+<p><span class="caption-text">Enable</span><a class="headerlink" href="#id40" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="id41">
+<a class="reference internal image-reference" href="../../media/40CLDBMO.png"><img alt="../../media/40CLDBMO.png" src="../../media/40CLDBMO.png" style="width: 300px;" />
+</a>
+<figcaption>
+<p><span class="caption-text"><code class="docutils literal notranslate"><span class="pre">*</span></code> Disable</span><a class="headerlink" href="#id41" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+</section>
+<section id="barcode-length-limit-instruction">
+<h2>Barcode Length Limit Instruction<a class="headerlink" href="#barcode-length-limit-instruction" title="Link to this heading">#</a></h2>
+<figure class="align-center" id="id42">
+<a class="reference internal image-reference" href="../../media/40OPBLL.png"><img alt="../../media/40OPBLL.png" src="../../media/40OPBLL.png" style="width: 300px;" />
+</a>
+<figcaption>
+<p><span class="caption-text">Enable</span><a class="headerlink" href="#id42" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="id43">
+<a class="reference internal image-reference" href="../../media/40CLBLL.png"><img alt="../../media/40CLBLL.png" src="../../media/40CLBLL.png" style="width: 300px;" />
+</a>
+<figcaption>
+<p><span class="caption-text"><code class="docutils literal notranslate"><span class="pre">*</span></code> Disable</span><a class="headerlink" href="#id43" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+</section>
+<section id="block-start-setting">
+<h2>Block Start Setting<a class="headerlink" href="#block-start-setting" title="Link to this heading">#</a></h2>
+<figure class="align-center" id="id44">
+<a class="reference internal image-reference" href="../../media/40OPMBE.png"><img alt="../../media/40OPMBE.png" src="../../media/40OPMBE.png" style="width: 300px;" />
+</a>
+<figcaption>
+<p><span class="caption-text">Enable</span><a class="headerlink" href="#id44" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="id45">
+<a class="reference internal image-reference" href="../../media/40CLBLL.png"><img alt="../../media/40CLBLL.png" src="../../media/40CLBLL.png" style="width: 300px;" />
+</a>
+<figcaption>
+<p><span class="caption-text"><code class="docutils literal notranslate"><span class="pre">*</span></code> Disable</span><a class="headerlink" href="#id45" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+</section>
+<section id="specify-start-settings">
+<h2>Specify Start Settings<a class="headerlink" href="#specify-start-settings" title="Link to this heading">#</a></h2>
+<figure class="align-center" id="id46">
+<a class="reference internal image-reference" href="../../media/40OPSPB.png"><img alt="../../media/40OPSPB.png" src="../../media/40OPSPB.png" style="width: 300px;" />
+</a>
+<figcaption>
+<p><span class="caption-text">Enable</span><a class="headerlink" href="#id46" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="id47">
+<a class="reference internal image-reference" href="../../media/40CLSPB.png"><img alt="../../media/40CLSPB.png" src="../../media/40CLSPB.png" style="width: 300px;" />
+</a>
+<figcaption>
+<p><span class="caption-text"><code class="docutils literal notranslate"><span class="pre">*</span></code> Disable</span><a class="headerlink" href="#id47" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+</section>
+<section id="specify-ending-settings">
+<h2>Specify Ending Settings<a class="headerlink" href="#specify-ending-settings" title="Link to this heading">#</a></h2>
+<figure class="align-center" id="id48">
+<a class="reference internal image-reference" href="../../media/40OPSPE.png"><img alt="../../media/40OPSPE.png" src="../../media/40OPSPE.png" style="width: 300px;" />
+</a>
+<figcaption>
+<p><span class="caption-text">Enable</span><a class="headerlink" href="#id48" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="id49">
+<a class="reference internal image-reference" href="../../media/40CLSPE.png"><img alt="../../media/40CLSPE.png" src="../../media/40CLSPE.png" style="width: 300px;" />
+</a>
+<figcaption>
+<p><span class="caption-text"><code class="docutils literal notranslate"><span class="pre">*</span></code> Disable</span><a class="headerlink" href="#id49" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+</section>
+<section id="must-include-settings">
+<h2>Must Include Settings<a class="headerlink" href="#must-include-settings" title="Link to this heading">#</a></h2>
+<figure class="align-center" id="id50">
+<a class="reference internal image-reference" href="../../media/40OPMINC.png"><img alt="../../media/40OPMINC.png" src="../../media/40OPMINC.png" style="width: 300px;" />
+</a>
+<figcaption>
+<p><span class="caption-text">Enable</span><a class="headerlink" href="#id50" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="id51">
+<a class="reference internal image-reference" href="../../media/40CLMINC.png"><img alt="../../media/40CLMINC.png" src="../../media/40CLMINC.png" style="width: 300px;" />
+</a>
+<figcaption>
+<p><span class="caption-text"><code class="docutils literal notranslate"><span class="pre">*</span></code> Disable</span><a class="headerlink" href="#id51" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+</section>
+<section id="cannot-contain-settings">
+<h2>Cannot Contain Settings<a class="headerlink" href="#cannot-contain-settings" title="Link to this heading">#</a></h2>
+<figure class="align-center" id="id52">
+<a class="reference internal image-reference" href="../../media/40OPCTID.png"><img alt="../../media/40OPCTID.png" src="../../media/40OPCTID.png" style="width: 300px;" />
+</a>
+<figcaption>
+<p><span class="caption-text">Enable</span><a class="headerlink" href="#id52" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="id53">
+<a class="reference internal image-reference" href="../../media/40CLCTID.png"><img alt="../../media/40CLCTID.png" src="../../media/40CLCTID.png" style="width: 300px;" />
+</a>
+<figcaption>
+<p><span class="caption-text"><code class="docutils literal notranslate"><span class="pre">*</span></code> Disable</span><a class="headerlink" href="#id53" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+</section>
+<section id="character-requirement-settings">
+<h2>Character Requirement Settings<a class="headerlink" href="#character-requirement-settings" title="Link to this heading">#</a></h2>
+<section id="id2">
+<h3>Enable/Disable<a class="headerlink" href="#id2" title="Link to this heading">#</a></h3>
+<figure class="align-center" id="id54">
+<a class="reference internal image-reference" href="../../media/40OPCARE.png"><img alt="../../media/40OPCARE.png" src="../../media/40OPCARE.png" style="width: 300px;" />
+</a>
+<figcaption>
+<p><span class="caption-text">Enable</span><a class="headerlink" href="#id54" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="id55">
+<a class="reference internal image-reference" href="../../media/40CLCARE.png"><img alt="../../media/40CLCARE.png" src="../../media/40CLCARE.png" style="width: 300px;" />
+</a>
+<figcaption>
+<p><span class="caption-text"><code class="docutils literal notranslate"><span class="pre">*</span></code> Disable</span><a class="headerlink" href="#id55" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+</section>
+<section id="id3">
+<h3>Character Requirement Settings<a class="headerlink" href="#id3" title="Link to this heading">#</a></h3>
+<figure class="align-center" id="id56">
+<a class="reference internal image-reference" href="../../media/40CAREFN.png"><img alt="../../media/40CAREFN.png" src="../../media/40CAREFN.png" style="width: 300px;" />
+</a>
+<figcaption>
+<p><span class="caption-text">All Numbers</span><a class="headerlink" href="#id56" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="id57">
+<a class="reference internal image-reference" href="../../media/40CAREFL.png"><img alt="../../media/40CAREFL.png" src="../../media/40CAREFL.png" style="width: 300px;" />
+</a>
+<figcaption>
+<p><span class="caption-text">All Letters</span><a class="headerlink" href="#id57" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="id58">
+<a class="reference internal image-reference" href="../../media/40CARRELN.png"><img alt="../../media/40CARRELN.png" src="../../media/40CARRELN.png" style="width: 300px;" />
+</a>
+<figcaption>
+<p><span class="caption-text">Numbers OR Letters</span><a class="headerlink" href="#id58" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+</section>
+</section>
+</section>
+
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="system.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">System Settings</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="hardware.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Hardware</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#key-trigger-mode">Key Trigger Mode</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#continuous-mode">Continuous Mode</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#reading-interval-time">Reading Interval Time</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#auto-sensing-mode">Auto Sensing Mode</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#trigger-sensitivity">Trigger Sensitivity</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#sensing-interval-time">Sensing Interval Time</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#sensing-timeout-time">Sensing Timeout Time</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#repeat-time-filter-settings">Repeat Time Filter Settings</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#enable-disable">Enable/Disable</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#filtering-time-settings">Filtering Time Settings</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#duplicate-count-filtering-settings">Duplicate Count Filtering Settings</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Enable/Disable</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#filter-count-settings">Filter Count Settings</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#duplicate-barcode-filtering-settings">Duplicate Barcode Filtering Settings</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#merging-duplicate-barcodes">Merging Duplicate Barcodes</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#barcode-length-limit-instruction">Barcode Length Limit Instruction</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#block-start-setting">Block Start Setting</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#specify-start-settings">Specify Start Settings</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#specify-ending-settings">Specify Ending Settings</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#must-include-settings">Must Include Settings</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#cannot-contain-settings">Cannot Contain Settings</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#character-requirement-settings">Character Requirement Settings</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">Enable/Disable</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">Character Requirement Settings</a></li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By WSX
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2025, WSX.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
