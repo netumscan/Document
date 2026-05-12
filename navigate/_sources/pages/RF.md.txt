@@ -4,30 +4,30 @@ hide-toc: true
 
 # RF系列扫描枪
 
-## [RF5520](https://docs.gzxlscan.cn/manual/RF5520/zh)
+## [RF5520](https://doc5.gzxlscan.cn/RF5520/zh/)
 
 ```{figure} ../media/series/RF5520.jpg
 :align: center
-:target: https://docs.gzxlscan.cn/manual/RF5520/zh
+:target: https://doc5.gzxlscan.cn/RF5520/zh/
 
-[RF5520](https://docs.gzxlscan.cn/manual/RF5520/zh)
+[RF5520](https://doc5.gzxlscan.cn/RF5520/zh/)
 ```
 
-## [RF5520U](https://docs.gzxlscan.cn/manual/RF5520U/zh)
+## [RF5520U](https://doc5.gzxlscan.cn/RF5520U/zh/)
 
 ```{figure} ../media/series/RF5520U.jpg
 :align: center
-:target: https://docs.gzxlscan.cn/manual/RF5520U/zh
+:target: https://doc5.gzxlscan.cn/RF5520U/zh/
 
-[RF5520U](https://docs.gzxlscan.cn/manual/RF5520U/zh)
+[RF5520U](https://doc5.gzxlscan.cn/RF5520U/zh/)
 ```
 
-## [RF9520X](https://docs.gzxlscan.cn/manual/RF9520X/zh)
+## [RF9520X](https://doc5.gzxlscan.cn/RF9520X/zh/)
 
 ```{figure} ../media/series/RF9520X.jpg
 :align: center
-:target: https://docs.gzxlscan.cn/manual/RF9520X/zh
+:target: https://doc5.gzxlscan.cn/RF9520X/zh/
 
-[RF9520X](https://docs.gzxlscan.cn/manual/RF9520X/zh)
+[RF9520X](https://doc5.gzxlscan.cn/RF9520X/zh/)
 ```
 

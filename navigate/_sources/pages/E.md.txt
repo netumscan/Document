@@ -5,42 +5,40 @@ hide-toc: true
 
 # E系列扫描枪
 
-
-## [E740](https://docs.gzxlscan.cn/manual/E740/zh)
+## [E740](https://doc3.gzxlscan.cn/E740/zh/)
 
 ```{figure} ../media/series/E740.jpg
 :align: center
-:target: https://docs.gzxlscan.cn/manual/E740/zh
+:target: https://doc3.gzxlscan.cn/E740/zh/
 
-[E740](https://docs.gzxlscan.cn/manual/E740/zh)
+[E740](https://doc3.gzxlscan.cn/E740/zh/)
 ```
 
-## [E800](https://docs.gzxlscan.cn/manual/E800/zh)
+## [E800](https://doc1.gzxlscan.cn/E800/zh/)
 
 
 ```{figure} ../media/series/E800.jpg
 :align: center
-:target: https://docs.gzxlscan.cn/manual/E800/zh
+:target: https://doc1.gzxlscan.cn/E800/zh/
 
-[E800](https://docs.gzxlscan.cn/manual/E800/zh)
+[E800](https://doc1.gzxlscan.cn/E800/zh/)
 ```
 
-## [E900](https://docs.gzxlscan.cn/manual/E900/zh)
+## [E900](https://doc5.gzxlscan.cn/E900/zh/)
 
 
 ```{figure} ../media/series/E900.jpg
 :align: center
-:target: https://docs.gzxlscan.cn/manual/E900/zh
+:target: https://doc5.gzxlscan.cn/E900/zh/
 
-[E900](https://docs.gzxlscan.cn/manual/E900/zh)
+[E900](https://doc5.gzxlscan.cn/E900/zh/)
 ```
 
-## [E950](https://docs.gzxlscan.cn/manual/E950/zh)
+## [E950](https://doc5.gzxlscan.cn/E950/zh/)
 
 ```{figure} ../media/series/E950.jpg
 :align: center
-:target: https://docs.gzxlscan.cn/manual/E950/zh
+:target: https://doc5.gzxlscan.cn/E950/zh/
 
-[E950](https://docs.gzxlscan.cn/manual/E950/zh)
+[E950](https://doc5.gzxlscan.cn/E950/zh/)
 ```
-

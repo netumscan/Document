@@ -5,53 +5,50 @@ hide-toc: true
 # NT系列扫描枪
 
 
-## [NT-1228BC](https://docs.gzxlscan.cn/manual/NT-1228BC/zh)
+## [NT-1228BC](https://doc3.gzxlscan.cn/NT-1228BC/zh/)
 
 ```{figure} ../media/series/NT-1228BC.jpg
 :align: center
-:target: https://docs.gzxlscan.cn/manual/NT-1228BC/zh
+:target: https://doc3.gzxlscan.cn/NT-1228BC/zh/
 
-[NT-1228BC](https://docs.gzxlscan.cn/manual/NT-1228BC/zh)
+[NT-1228BC](https://doc3.gzxlscan.cn/NT-1228BC/zh/)
 ```
 
 
-## [NT-1228BL](https://docs.gzxlscan.cn/manual/NT-1228BL/zh)
+## [NT-1228BL](https://doc2.gzxlscan.cn/NT-1228BL/zh/)
 
 
 ```{figure} ../media/series/NT-1228BL.jpg
 :align: center
-:target: https://docs.gzxlscan.cn/manual/NT-1228BL/zh
+:target: https://doc2.gzxlscan.cn/NT-1228BL/zh/
 
-[NT-1228BL](https://docs.gzxlscan.cn/manual/NT-1228BL/zh)
+[NT-1228BL](https://doc2.gzxlscan.cn/NT-1228BL/zh/)
 ```
 
-## [NT-2028](https://docs.gzxlscan.cn/manual/NT-2028/zh)
+## [NT-2028](https://doc2.gzxlscan.cn/NT-2028/zh/)
 
 
 ```{figure} ../media/series/NT-2028.jpg
 :align: center
-:target: https://docs.gzxlscan.cn/manual/NT-2028/zh
+:target: https://doc2.gzxlscan.cn/NT-2028/zh/
 
-[NT-2028](https://docs.gzxlscan.cn/manual/NT-2028/zh)
+[NT-2028](https://doc2.gzxlscan.cn/NT-2028/zh/)
 ```
 
-## [NT-2028-PS](https://docs.gzxlscan.cn/manual/NT-2028-PS/zh)
+## [NT-2028-PS](https://doc7.gzxlscan.cn/NT-2028-PS/zh/)
 
 ```{figure} ../media/series/NT-2028-PS.jpg
 :align: center
-:target: https://docs.gzxlscan.cn/manual/NT-2028-PS/zh
+:target: https://doc7.gzxlscan.cn/NT-2028-PS/zh/
 
-[NT-2028-PS](https://docs.gzxlscan.cn/manual/NT-2028-PS/zh)
+[NT-2028-PS](https://doc7.gzxlscan.cn/NT-2028-PS/zh/)
 ```
 
-## [NT-2028-PS-W](https://docs.gzxlscan.cn/manual/NT-2028-PS-W/zh)
+## [NT-2028-PS-W](https://doc2.gzxlscan.cn/NT-2028-PS-W/zh/)
 
 ```{figure} ../media/series/NT-2028-PS-W.jpg
 :align: center
-:target: https://docs.gzxlscan.cn/manual/NT-2028-PS-W/zh
+:target: https://doc2.gzxlscan.cn/NT-2028-PS-W/zh/
 
-[NT-2028-PS-W](https://docs.gzxlscan.cn/manual/NT-2028-PS-W/zh)
+[NT-2028-PS-W](https://doc2.gzxlscan.cn/NT-2028-PS-W/zh/)
 ```
-
-
-

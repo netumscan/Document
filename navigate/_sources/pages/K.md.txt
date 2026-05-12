@@ -6,30 +6,32 @@ hide-toc: true
 
 ## [K20](https://docs.gzxlscan.cn/manual/K20/zh)
 
+## [K20](https://doc7.gzxlscan.cn/K20/zh/)
+
 ```{figure} ../media/series/K20.jpg
 :align: center
-:target: https://docs.gzxlscan.cn/manual/K20/zh
+:target: https://doc7.gzxlscan.cn/K20/zh/
 
-[K20](https://docs.gzxlscan.cn/manual/K20/zh)
+[K20](https://doc7.gzxlscan.cn/K20/zh/)
 ```
 
 
-## [K6](https://docs.gzxlscan.cn/manual/K6/zh)
+## [K6](https://doc3.gzxlscan.cn/K6/zh/)
 
 
 ```{figure} ../media/series/K6.jpg
 :align: center
-:target: https://docs.gzxlscan.cn/manual/K6/zh
+:target: https://doc3.gzxlscan.cn/K6/zh/
 
-[K6](https://docs.gzxlscan.cn/manual/K6/zh)
+[K6](https://doc3.gzxlscan.cn/K6/zh/)
 ```
 
-## [K28](https://docs.gzxlscan.cn/manual/K28/zh)
+## [K28](https://doc1.gzxlscan.cn/K28/zh/)
 
 
 ```{figure} ../media/series/K28.jpg
 :align: center
-:target: https://docs.gzxlscan.cn/manual/K28/zh
+:target: https://doc1.gzxlscan.cn/K28/zh/
 
-[K28](https://docs.gzxlscan.cn/manual/K28/zh)
+[K28](https://doc1.gzxlscan.cn/K28/zh/)
 ```

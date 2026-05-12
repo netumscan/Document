@@ -4,62 +4,61 @@ hide-toc: true
 
 # L系列扫描枪
 
-## [L3](https://docs.gzxlscan.cn/manual/L3/zh)
+## [L3](https://doc8.gzxlscan.cn/L3/zh/)
 
 ```{figure} ../media/series/L3.jpg
 :align: center
-:target: https://docs.gzxlscan.cn/manual/L3/zh
+:target: https://doc8.gzxlscan.cn/L3/zh/
 
-[L3](https://docs.gzxlscan.cn/manual/L3/zh)
+[L3](https://doc8.gzxlscan.cn/L3/zh/)
 ```
 
-## [L5](https://docs.gzxlscan.cn/manual/L5/zh)
+## [L5](https://doc7.gzxlscan.cn/L5/zh/)
 
 
 ```{figure} ../media/series/L5.jpg
 :align: center
-:target: https://docs.gzxlscan.cn/manual/L5/zh
+:target: https://doc7.gzxlscan.cn/L5/zh/
 
-[L5](https://docs.gzxlscan.cn/manual/L5/zh)
+[L5](https://doc7.gzxlscan.cn/L5/zh/)
 ```
 
-## [L6](https://docs.gzxlscan.cn/manual/L6/zh)
+## [L6](https://doc3.gzxlscan.cn/L6/zh/)
 
 
 ```{figure} ../media/series/L6.jpg
 :align: center
-:target: https://docs.gzxlscan.cn/manual/L6/zh
+:target: https://doc3.gzxlscan.cn/L6/zh/
 
-[L6](https://docs.gzxlscan.cn/manual/L6/zh)
+[L6](https://doc3.gzxlscan.cn/L6/zh/)
 ```
 
-## [L6BL](https://docs.gzxlscan.cn/manual/L6BL/zh)
+## [L6BL](https://doc3.gzxlscan.cn/L6BL/zh/)
 
 ```{figure} ../media/series/L6BL.jpg
 :align: center
-:target: https://docs.gzxlscan.cn/manual/L6BL/zh
+:target: https://doc3.gzxlscan.cn/L6BL/zh/
 
-[L6BL](https://docs.gzxlscan.cn/manual/L6BL/zh)
+[L6BL](https://doc3.gzxlscan.cn/L6BL/zh/)
 ```
 
-## [L8](https://docs.gzxlscan.cn/manual/L8/zh)
+## [L8](https://doc1.gzxlscan.cn/L8/zh/)
 
 
 ```{figure} ../media/series/L8.jpg
 :align: center
-:target: https://docs.gzxlscan.cn/manual/L8/zh
+:target: https://doc1.gzxlscan.cn/L8/zh/
 
-[L8](https://docs.gzxlscan.cn/manual/L8/zh)
+[L8](https://doc1.gzxlscan.cn/L8/zh/)
 ```
 
-## [L8BL](https://docs.gzxlscan.cn/manual/L8BL/zh)
+## [L8BL](https://doc1.gzxlscan.cn/L8BL/zh/)
 
 ```{figure} ../media/series/L8BL.jpg
 :align: center
-:target: https://docs.gzxlscan.cn/manual/L8BL/zh
+:target: https://doc1.gzxlscan.cn/L8BL/zh/
 
-[L8BL](https://docs.gzxlscan.cn/manual/L8BL/zh)
+[L8BL](https://doc1.gzxlscan.cn/L8BL/zh/)
 ```
-
 
 

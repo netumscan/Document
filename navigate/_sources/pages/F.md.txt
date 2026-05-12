@@ -5,43 +5,42 @@ hide-toc: true
 # F系列扫描枪
 
 
-## [F20](https://docs.gzxlscan.cn/manual/F20/zh)
+
+## [F20](https://doc8.gzxlscan.cn/F20/zh/)
 
 
 ```{figure} ../media/series/F20.jpg
 :align: center
-:target: https://docs.gzxlscan.cn/manual/F20/zh
+:target: https://doc8.gzxlscan.cn/F20/zh/
 
-[F20](https://docs.gzxlscan.cn/manual/F20/zh)
+[F20](https://doc8.gzxlscan.cn/F20/zh/)
 ```
 
-## [F1900](https://docs.gzxlscan.cn/manual/F1900/zh)
+## [F1900](https://doc3.gzxlscan.cn/F1900/zh/)
 
 
 ```{figure} ../media/series/F1900.jpg
 :align: center
-:target: https://docs.gzxlscan.cn/manual/F1900/zh
+:target: https://doc3.gzxlscan.cn/F1900/zh/
 
-[F1900](https://docs.gzxlscan.cn/manual/F1900/zh)
+[F1900](https://doc3.gzxlscan.cn/F1900/zh/)
 ```
 
-## [F16](https://docs.gzxlscan.cn/manual/F16/zh)
+## [F16](https://doc7.gzxlscan.cn/F16/zh/)
 
 ```{figure} ../media/series/F16.jpg
 :align: center
-:target: https://docs.gzxlscan.cn/manual/F16/zh
+:target: https://doc7.gzxlscan.cn/F16/zh/
 
-[F16](https://docs.gzxlscan.cn/manual/F16/zh)
+[F16](https://doc7.gzxlscan.cn/F16/zh/)
 ```
 
-## [F18W](https://docs.gzxlscan.cn/manual/F18W/zh)
+## [F18W](https://doc1.gzxlscan.cn/F18W/zh/)
 
 ```{figure} ../media/series/F18W.jpg
 :align: center
-:target: https://docs.gzxlscan.cn/manual/F18W/zh
+:target: https://doc1.gzxlscan.cn/F18W/zh/
 
-[F18W](https://docs.gzxlscan.cn/manual/F18W/zh)
+[F18W](https://doc1.gzxlscan.cn/F18W/zh/)
 ```
-
-
 

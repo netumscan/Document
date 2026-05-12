@@ -4,32 +4,32 @@ hide-toc: true
 
 # Z系列扫描枪
 
-## [NT-2100](https://docs.gzxlscan.cn/manual/NT-2100/zh)
+## [NT-2100](https://doc3.gzxlscan.cn/NT-2100/zh/)
 
 ```{figure} ../media/series/NT-2100.jpg
 :align: center
-:target: https://docs.gzxlscan.cn/manual/NT-2100/zh
+:target: https://doc3.gzxlscan.cn/NT-2100/zh/
 
-[NT-2100](https://docs.gzxlscan.cn/manual/NT-2100/zh)
+[NT-2100](https://doc3.gzxlscan.cn/NT-2100/zh/)
 ```
 
 
-## [M9](https://docs.gzxlscan.cn/manual/M9/zh)
+## [M9](https://doc1.gzxlscan.cn/M9/zh/)
 
 
 ```{figure} ../media/series/M9.jpg
 :align: center
-:target: https://docs.gzxlscan.cn/manual/M9/zh
+:target: https://doc1.gzxlscan.cn/M9/zh/
 
-[M9](https://docs.gzxlscan.cn/manual/M9/zh)
+[M9](https://doc1.gzxlscan.cn/M9/zh/)
 ```
 
-## [Z3S](https://docs.gzxlscan.cn/manual/Z3S/zh)
+## [Z3S](https://doc3.gzxlscan.cn/Z3S/zh/)
 
 
 ```{figure} ../media/series/Z3S.jpg
 :align: center
-:target: https://docs.gzxlscan.cn/manual/Z3S/zh
+:target: https://doc3.gzxlscan.cn/Z3S/zh/
 
-[Z3S](https://docs.gzxlscan.cn/manual/Z3S/zh)
+[Z3S](https://doc3.gzxlscan.cn/Z3S/zh/)
 ```
