@@ -9,9 +9,10 @@
 - [Polish User Manual](https://pan.gzxlscan.cn/s/e1nghn)
 - [Chinese User Manual](https://pan.gzxlscan.cn/s/tlgm0a)
 - [Japanese User Manual](https://pan.gzxlscan.cn/s/e2kssz)
+- [Russian User Manual](https://pan.gzxlscan.cn/s/e89zcv)
 
 
 ## Supporting Software
 
-- [32-bit](https://pan.gzxlscan.cn/s/n8tlvb)
-- [64-bit](https://pan.gzxlscan.cn/s/ly08i1)
+- [32-bit](https://pan.gzxlscan.cn/s/j9s69d)
+- [64-bit](https://pan.gzxlscan.cn/s/gtlrqc)
